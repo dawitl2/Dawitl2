@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exact Design</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            scroll-behavior: smooth;
+            background-color: black;
+            background-image: url(Rectangle\ 430.png);
+            background-repeat: no-repeat;
+            background-size: 1220px;
+            background-position: top left;
+        }
+
+        .header{
+            background-color: yellow;
+        }
+        
+        .header {
+            height: 50px;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 50px;
+            margin-bottom: 50px;
+        }
+        .header ul {
+            list-style-type: none;
+            display: flex;
+            gap: 30px;
+        }
+        .header ul li {
+            cursor: pointer;
+        }
+        .header ul li a {
+            text-decoration: none;
+            color: white;
+        }
+      
+.first {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+.first img {
+    height: 250px;
+}
+.first h1 {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 17px;
+}
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+ }
+
+ .text-1 button {
+background-color: rgba(80, 200, 185, 1); 
+padding: 10px;
+border-radius: 20px;
+width: 100px;
+border: none;
+color: black;
+box-shadow: 0 0 10px rgba(80, 200, 185, 0.4), 
+            0 0 20px rgba(80, 200, 185, 0.3), 
+            0 0 30px rgba(80, 200, 185, 0.2);
+
+ transition: box-shadow 0.3s ease-in-out;
+}
+
+.text-1 button:hover {
+box-shadow: 0 0 10px rgba(80, 200, 185, 0.7), 
+            0 0 20px rgba(80, 200, 185, 0.4), 
+            0 0 30px rgba(80, 200, 185, 0.3);
+
+}
+
+
+.years {
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(blue.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.years h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.css-img {
+    position: absolute;
+    height: 38px;
+    top: 45%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    animation: orbit 20s linear infinite; 
+}
+
+@keyframes orbit {
+0% {
+    transform: rotate(0deg) translateX(200px) rotate(0deg); /* Increased radius */
+}
+100% {
+    transform: rotate(360deg) translateX(200px) rotate(-360deg);
+}
+}
+
+.a {
+    top: 70%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+}
+.b {
+    top: 22%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.c {
+    top: 61%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+.d {
+    top: 40%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+}
+.e {
+    top: 35%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+}
+
+#yr {
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #12121284;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+
+.one {
+    border: solid 0.1px gray;
+    background-color: transparent;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ONE {
+    border: solid 0.1px gray;
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+        .container {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+            width: 900px;
+            height: 400px;
+            margin-top: 100px;
+        }
+
+        .item {
+            background-color: #121212;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .item-1 {
+            grid-row: span 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .item-1 h2 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .item-1 p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #aaa;
+        }
+
+        .item-1 span {
+            color: #36E3E8;
+            font-weight: bold;
+        }
+
+        .stat {
+            font-size: 2.8rem;
+            font-weight: bold;
+            color: #36E3E8;
+        }
+
+        .text {
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+
+        
+.work{
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-image: url(blue-work.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+   }
+   .work-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+   }
+   .work-text h1{
+    font-size: 50px;
+    margin: 0;
+    margin-top: 20px;
+   }
+   .work-text p{
+    font-size: 15px;
+    margin: 0;
+    color: rgba(98, 247, 232, 1);
+    text-shadow:0 0 10px rgba(98, 247, 232, 0.8), 
+                0 0 20px rgba(98, 247, 232, 0.6), 
+                0 0 30px rgba(98, 247, 232, 0.4);
+   }
+   .work-card{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .work-card > div{
+    border: solid 0.1px rgba(71, 71, 71, 0.71);
+   }
+
+   .work-card > div:hover{
+    cursor: pointer;
+   }
+
+   .work-card > div:hover div{
+    background-color: #15151586;
+   }
+   
+   .work-card div div h3 {
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+.work-card > div:hover div h3:after {
+    width: 100%;
+    left: 0%;
+}
+
+.work-card div div h3:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgba(98, 247, 232, 1);
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+   .work-card div:hover{
+      background-color: rgba(0, 0, 0, 0.436);
+   }
+
+   .work-card div{
+    height: 350px;
+    width: 350px;
+    background-color: #191b1f88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+   }
+   .work-card div img{
+    width: 330px;
+    border-radius: 10px;
+   }
+   .work-card div div h3{
+    margin: 0;
+   }
+   .work-card div div p{
+    margin: 0;
+    color: gray;
+   }
+   .work-card div div{
+    height: 100px;
+    width: 310px;
+    background-color: #25272a00;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.more-btn{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 0.1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer{
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #12121276;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.footer div img{
+    height: 50px;
+    width: 50px;
+}
+
+.img {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+
+.rotating-orb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+    background-image: url(orb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform-origin: center;
+    animation: rotate 100s linear infinite;
+    z-index: 1;
+    opacity: 70%;
+}
+
+.img img {
+    position: relative;
+    height: 250px;
+    z-index: 2;
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/* Initial state: hidden */
+.scroll-animation {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Active state: visible */
+.scroll-animation.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#work">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="info">
+        <div class="first">
+            <div class="text-1">
+                <h1>Hi! I’m Dawit Enku</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing 
+                    elit. Nesciunt recusandae odio quas distinctio 
+                    laudantium aspernatur sapiente eos libero 
+                    eveniet veritatis, corporis eligendi voluptatem 
+                    temporibus corrupti ipsa omnis aliquam reprehenderit ipsum?
+                </p>
+                <button>Hier Me</button>
+            </div>
+            <div class="img">
+                <div class="rotating-orb"></div> <!-- Separate rotating orb -->
+                <img src="me.png" alt="me">
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="time">
+        <div class="years" id="about">
+            <h1>2.5+ MONTHS OF EXPERIENCE IN WEB DEVELOPMENT</h1>
+            <img class="css-img" src="css.png" alt="">
+            <div class="a" id="yr"><p>Figma</p></div>
+            <div class="b" id="yr"><p>CSS</p></div>
+            <div class="c" id="yr"><p>React</p></div>
+            <div class="d" id="yr"><p>Git</p></div>
+            <div class="e" id="yr"><p>Client First</p></div>
+            <div class="one"><div class="ONE"></div></div>
+        </div> 
+    </div>
+    <div class="container">
+        <div class="item item-1">
+            <h2>Blending Creativity with Functionality</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sequi error molestiae ratione magni voluptatibus veritatis numquam, nisi cum <span>CSS</span> accusantium dolorem <span>UI/UX</span> tempore ad perspiciatis.</p>
+            <p>Lorem <span>React</span> dolor voluptatibus recusandae tempora vitae maxime asperiores.</p>
+        </div>
+        <div class="item">
+            <div class="stat">+5</div>
+            <div class="text">Years of Experience<br>in UI design</div>
+        </div>
+        <div class="item">
+            <div class="stat">+50</div>
+            <div class="text">Successful Projects</div>
+        </div>
+        <div class="item">
+            <div class="stat">+30</div>
+            <div class="text">Customers</div>
+        </div>
+        <div class="item">
+            <div class="stat">100%</div>
+            <div class="text">Quality</div>
+        </div>
+</div>
+<div class="work">
+    <div class="work-text" style="margin-bottom: 50px;">
+        <h1>Recent Work</h1>
+        <p>TOP 10 for the last 2.5 months</p>
+    </div>
+    <div class="work-card">
+         <div class="card1">
+            <img src="temp.png" alt="">
+            <div class="data1">
+                <h3>Judah Shop</h3>
+                <p>A comercial Ecomerce tech 
+                    shop website for mas.io
+                </p>
+            </div>
+         </div>
+         <div class="card2">
+            <img src="temp2.png" alt="">
+            <div class="data2">
+                <h3>Mas Cars</h3>
+                <p>A comercial Ecomerce car 
+                    shop website for mas.io
+                </p>
+            </div>
+         </div>
+         <div class="card3">
+            <img src="temp3.png" alt="">
+            <div class="data3">
+                <h3>Sassy Jam</h3>
+                <p>A comercial Ecomerce sassy 
+                    shop website for mas.io
+                </p>
+            </div>
+         </div>
+    </div>
+    <button class="more-btn">MORE</button>        
+</div>
+<div class="work-text">
+    <h1>Lets Talk</h1>
+    <p>Hit me up any time :)</p>
+</div>
+<div class="footer">
+    <div>
+        <img src="git.png" alt="">
+        <img src="insta.png" alt="">
+        <img src="whatsapp.png" alt="">
+    </div>
+</div>
+<p style="color: black;">#</p>
+</body>
+</html>
