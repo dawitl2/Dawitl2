@@ -10,8 +10,6 @@ I build complete software products — from polished web interfaces and backend 
 
 <p align="center">
   <a href="https://dawit.et/">Portfolio</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/dawitl2">GitHub</a>
 </p>
 
 ---
@@ -21,9 +19,15 @@ I build complete software products — from polished web interfaces and backend 
 * 💻 Building **full-stack applications**, APIs, databases, and real-world software systems
 * 📱 Developing native Android applications with **Kotlin & Jetpack Compose**
 * 🧠 Currently focused on **TypeScript, NestJS, PostgreSQL, Android, and intelligent systems**
+
 ---
 
 ## 🛠️ Languages & Technologies
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
 
 ### Languages
 
@@ -33,6 +37,10 @@ I build complete software products — from polished web interfaces and backend 
   </a>
 </p>
 
+</td>
+
+<td width="50%" valign="top">
+
 ### Frontend
 
 <p>
@@ -40,6 +48,14 @@ I build complete software products — from polished web interfaces and backend 
     <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,bootstrap,vite&theme=dark" />
   </a>
 </p>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
 
 ### Backend & APIs
 
@@ -49,6 +65,10 @@ I build complete software products — from polished web interfaces and backend 
   </a>
 </p>
 
+</td>
+
+<td width="50%" valign="top">
+
 ### Databases & Data
 
 <p>
@@ -56,6 +76,14 @@ I build complete software products — from polished web interfaces and backend 
     <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase,supabase,prisma,sqlite&theme=dark" />
   </a>
 </p>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
 
 ### Android & Computer Vision
 
@@ -65,6 +93,15 @@ I build complete software products — from polished web interfaces and backend 
   </a>
 </p>
 
+</td>
+
+<td width="50%" valign="top">
+</td>
+
+</tr>
+</table>
+
+---
 
 ## 📫 Connect With Me
 
@@ -78,4 +115,3 @@ I build complete software products — from polished web interfaces and backend 
 </p>
 
 ---
-
